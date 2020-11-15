@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header nav {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img {
+  width: 180px;
+  margin-left: 50px;
+}
+
+nav ul {
+  list-style: none;
+  margin-right: 50px;
+}
+ul li {
+  display: inline;
+  margin-right: 20px;
+}
+ul li a {
+  /* display: inline-block; */
+  text-decoration: none;
+}
+nav ul li:last-child {
+  margin-right: 0px;
+}
+.home {
+  color: hotpink;
+  font-weight: 600;
+}
+/* end of header */
+
+/*==========
+Intro
+=========== */
