@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+body {
+  background: whitesmoke;
+  color: #0879c3;
+  font-weight: 800;
 }
 header nav {
   margin-top: 20px;
@@ -12,6 +18,8 @@ header nav {
 nav img {
   width: 180px;
   margin-left: 50px;
+  background: black;
+  border-radius: 10px;
 }
 
 nav ul {
@@ -25,6 +33,9 @@ ul li {
 ul li a {
   /* display: inline-block; */
   text-decoration: none;
+  color: #299cd1;
+  font-size: 18px;
+  font-weight: 600;
 }
 nav ul li:last-child {
   margin-right: 0px;
@@ -38,3 +49,100 @@ nav ul li:last-child {
 /*==========
 Intro
 =========== */
+.intro {
+  margin: 60px 0;
+}
+.intro p {
+  margin: 0 auto;
+  width: 85%;
+  font-size: x-large;
+  line-height: 1.65;
+}
+.intro p span {
+  /* text-decoration: underline; */
+  border-bottom: 3px solid hotpink;
+  color: hotpink;
+  font-weight: bold;
+  cursor: pointer;
+}
+.intro hr {
+  width: 30px;
+  height: 6px;
+  background: hotpink;
+  margin: 2% 0% 0 7.5%;
+  border-radius: 5px;
+}
+/* end of .intro */
+
+/* ============
+.subscribe 
+===========*/
+.subscribe {
+  display: grid;
+  place-items: center;
+}
+.subscribe .container {
+  width: 685px;
+  padding: 20px;
+  background: #2b2b52;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.container .form-container .form {
+  padding: 10px;
+  width: 362px;
+  height: 332px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.form > * {
+  margin-bottom: 10px;
+}
+.form p {
+  font-size: 20px;
+}
+.form input {
+  padding: 15px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #0879c3;
+}
+.form input[type="submit"] {
+  background: #fac42f;
+  color: whitesmoke;
+  font-weight: bolder;
+  cursor: pointer;
+}
+::placeholder {
+  color: darkgrey;
+  font-size: 18px;
+}
+.container .subs-img {
+  width: 272px;
+  height: 487px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.title {
+  margin-top: 20px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Indie Flower", cursive;
+}
+
+@media (max-width: 500px) {
+  .intro p {
+    line-height: 1.5;
+  }
+  .subs-img {
+    display: none;
+  }
+  .form {
+    margin-left: 50px;
+  }
+}
