@@ -182,4 +182,12 @@ Intro
   .form {
     margin-left: 50px;
   }
+  .feature-imgs .f-img1 {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .feature-imgs .f-img2 {
+    margin-top: 50px;
+  }
 }
