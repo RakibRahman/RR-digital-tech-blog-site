@@ -74,6 +74,43 @@ Intro
 }
 /* end of .intro */
 
+/* feature */
+.feature {
+  margin: 20px 0;
+  display: flex;
+  background-color: #25ccf7;
+  color: whitesmoke;
+}
+.feature-imgs {
+  flex: 5;
+}
+.feature-imgs .f-img1 {
+  width: 40%;
+  margin-left: 20px;
+}
+.feature-imgs .f-img2 {
+  width: 30%;
+  margin-left: 120px;
+  margin-bottom: 60px;
+}
+.feature-content {
+  flex: 4;
+}
+.feature-content > * {
+  line-height: 1.65;
+  margin: 20px 20px;
+}
+.feature-content button {
+  padding: 10px 40px;
+  background: transparent;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.feature-content p {
+  font-weight: 400;
+}
 /* ============
 .subscribe 
 ===========*/
